@@ -1,3 +1,5 @@
+function newItem (){
+
 //1. Adding a new item to the list of items
 // creates new list item
 let li = $('<li></li>');
@@ -28,3 +30,4 @@ li.append(crossOutButton);
  		li.addClass("delete")
 }
  $('#list').sortable();
+};
